@@ -4,7 +4,7 @@ PATH
     riveter (0.2.1)
       activemodel (>= 4.0.0)
       railties (>= 4.0.0)
-      validates_timeliness (>= 3.0.0)
+      sp-validates_timeliness (>= 3.1.2)
 
 GEM
   remote: https://rubygems.org/
@@ -162,6 +162,8 @@ GEM
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.0)
     slop (3.6.0)
+    sp-validates_timeliness (3.1.2)
+      timeliness (~> 0.3.7)
     sprockets (3.1.0)
       rack (~> 1.0)
     sprockets-rails (2.3.1)
@@ -180,8 +182,6 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.1)
-    validates_timeliness (3.0.14)
-      timeliness (~> 0.3.6)
 
 PLATFORMS
   ruby
@@ -200,4 +200,4 @@ DEPENDENCIES
   shoulda-matchers (~> 2.8.0)
 
 BUNDLED WITH
-   1.10.1
+   1.10.5
