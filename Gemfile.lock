@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    riveter (0.2.1)
+    riveter (0.3.0)
       activemodel (>= 4.0.0)
       railties (>= 4.0.0)
       sp-validates_timeliness (>= 3.1.3)
@@ -175,7 +175,7 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (2.0.1)
-    timeliness (0.3.7)
+    timeliness (0.3.8)
     tins (1.5.2)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -188,7 +188,7 @@ PLATFORMS
 
 DEPENDENCIES
   ammeter (~> 1.1.2)
-  bundler (~> 1.10.1)
+  bundler (~> 1.11.2)
   coveralls (~> 0.8.1)
   haml-rails (~> 0.9.0)
   pry (~> 0.10.1)
@@ -200,4 +200,4 @@ DEPENDENCIES
   shoulda-matchers (~> 2.8.0)
 
 BUNDLED WITH
-   1.10.5
+   1.11.2
